@@ -22,26 +22,18 @@ body {
 	color: #eee;
 }
 
-.logo {
-	display: none;
-}
-
-.logo-inverted {
-	display: inline-block;
-}
-
 #main,
-#chat .userlist,
+#chat .sidebar,
 #windows .chan,
 #windows .window {
 	background: #000;
 }
 
-#chat .userlist .count {
+#chat .count {
 	background-color: #000;
 }
 
-#chat .userlist .search {
+#chat .search {
 	color: #eee;
 	padding: 15px 16px;
 }
@@ -55,17 +47,13 @@ body {
 #chat .content,
 #windows .header,
 #chat .user-mode::before,
-#chat .userlist {
+#chat .sidebar {
 	border-color: #101010;
 }
 
 /* User list */
 #chat .user-mode {
 	color: #eee;
-}
-
-#chat .userlist .user.active {
-	background: #000;
 }
 
 /* Nicknames */
@@ -210,21 +198,6 @@ body {
 
 #chat table.channel-list td {
 	color: #eee;
-}
-
-code,
-.irc-monospace {
-	background: #000;
-	color: #f3f3f3;
-}
-
-kbd {
-	color: #eee;
-	text-shadow: 0 -1px 0 #000;
-	border-color: #000;
-	background-color: #333;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.25), transparent);
-	box-shadow: 0 2px 0 #000, inset 0 1px 1px #777, inset 0 -1px 3px #222;
 }
 
 /* Embeds */
